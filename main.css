@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ogonek';
+    background-image: url(bg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  // Added this line
+}
+  
+.name{
+    margin-bottom: 10px;
+}
+
+.all{
+    height: 600px;
+    width: 72px;
+    padding-left: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    margin-bottom: 30%;
+}
+  
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 5.7px;
+}
+  
